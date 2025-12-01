@@ -18,13 +18,15 @@
 #define R RegisterClass(&wc)
 WNDCLASS wc={};
 /*
-ĞìÊÏwindowsµçÄÔÈí¼şÍø(www.wds.24782bus.xyz)
-°æÈ¨(c):ĞìÊÏwindowsµçÄÔÈí¼şÍø[±£ÁôËùÓĞÈ¨Àû]
-°æ±¾:1.0.0
+å¾æ°windowsç”µè„‘è½¯ä»¶ç½‘(www.wds.24782bus.xyz)
+ç‰ˆæƒ(c):å¾æ°windowsç”µè„‘è½¯ä»¶ç½‘[ä¿ç•™æ‰€æœ‰æƒåˆ©]
+ç‰ˆæœ¬:1.0.0
 */
+using namespace std;
 void run(MSG msg){
 	while(GetMessage(&msg,0,0,0)){
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
 	}
 }
+
