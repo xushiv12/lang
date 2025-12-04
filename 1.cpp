@@ -1,25 +1,19 @@
-#include"wlang.h" 
+#include"wlang.h"
 A B C{
 	if(msg==WM_CREATE){
-		MessageBox(0,"CREATE WINDOW!","CREATE",MB_OK);
+		cout<<"create\n";
+		ha=Make(hwnd,"EDIT","Xushi xushi xushi xushi.",WS_TEXT,0,0,3000,20);
 		return 0;
+	}else if(msg==WM_PAINT){
+		drawimg(hwnd,"b.bmp",0,0,400,400);
+		MessageBox(hwnd,"图片显示成功","显示成功",MB_OK);
+		MessageBox(0,"Show img finish!","right",MB_OK);  
+	}else if(msg==WM_CLOSE){
 	}
 	return P1;
 }
-int API n{
-	W1=xushi;
-	W2=h;
-	W3="xu";
-	R;
-	HWND hwnd=CreateWindow(
-	"xu",
-	"A window",
-	WS_IT,
-	1,1,3000,3000,
-	0,0,h,0
-	);
-	ShowWindow(hwnd,bbb);
-	MSG msg;
-	run(msg);
+int D E{
+	W4=color(BLUE);
+	EZ;
 	return 0;
 }
